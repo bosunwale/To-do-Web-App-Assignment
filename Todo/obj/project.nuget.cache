@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pnnu64Vguzomx+sQKIAYYvxq+uPXNMAc7ypBZDmLe7Hc/C575PQbAlk6vUd69UeLSOv83w/muAjARZ7F1l78KQ==",
+  "dgSpecHash": "PKuvs2Wa/XPmWV3axavh9nHRUjG3SXhh4dO0l63vFSa1Gb1xz3U78O4RvKDl8mqcYVbyiJvECADxjoO4Xl8KYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\Todo\\TodoWebAppAssignment.csproj",
+  "projectFilePath": "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\To-do-Assignment\\Todo\\TodoWebAppAssignment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\John_\\.nuget\\packages\\microsoft.data.sqlite\\6.0.7\\microsoft.data.sqlite.6.0.7.nupkg.sha512",
     "C:\\Users\\John_\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.7\\microsoft.data.sqlite.core.6.0.7.nupkg.sha512",

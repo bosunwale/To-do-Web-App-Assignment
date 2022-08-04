@@ -21,11 +21,12 @@ namespace ToDo.Controllers
         }
         public IActionResult Index()
         {
-            var todoListViewModel = GetAllTodos();
-            return View(todoListViewModel);
+            var todoView = GetAllTodoItem();
+            return View(todoView);
         }
 
-        internal TodoViewModel GetAllTodos()
+        //Code to select all the items and display on the app
+        internal TodoViewModel GetAllTodoItem()
         {
             List<TodoItem> todoList = new();
             using (SqliteConnection con =
@@ -119,7 +120,7 @@ namespace ToDo.Controllers
                     }
                 }
             }
-            return Redirect("https://localhost:5001/");
+            return Redirect("Index");
         }
         [HttpPost]
         public JsonResult Delete(int id)
@@ -154,30 +155,6 @@ namespace ToDo.Controllers
 
             return Json(new { });
         }
-
-
-        //public RedirectResult Update(ToDoItem todo)
-        //{
-        //    using (SqliteConnection con =
-        //           new SqliteConnection("Data Source=db.sqlite"))
-        //    {
-        //        using (var tableCmd = con.CreateCommand())
-        //        {
-        //            con.Open();
-        //            tableCmd.CommandText = $"UPDATE todo SET name = '{todo.Name}' WHERE Id = '{todo.intID}'";
-        //            try
-        //            {
-        //                tableCmd.ExecuteNonQuery();
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                Console.WriteLine(ex.Message);
-        //            }
-        //        }
-        //    }
-
-        //    return Redirect("https://localhost:5001/");
-        //}
 
     }
 

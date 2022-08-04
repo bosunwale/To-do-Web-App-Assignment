@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\Todo\\TodoWebAppAssignment.csproj": {}
+    "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\To-do-Assignment\\Todo\\TodoWebAppAssignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\Todo\\TodoWebAppAssignment.csproj": {
+    "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\To-do-Assignment\\Todo\\TodoWebAppAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\Todo\\TodoWebAppAssignment.csproj",
+        "projectUniqueName": "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\To-do-Assignment\\Todo\\TodoWebAppAssignment.csproj",
         "projectName": "TodoWebAppAssignment",
-        "projectPath": "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\Todo\\TodoWebAppAssignment.csproj",
+        "projectPath": "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\To-do-Assignment\\Todo\\TodoWebAppAssignment.csproj",
         "packagesPath": "C:\\Users\\John_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\Todo\\obj\\",
+        "outputPath": "C:\\Users\\John_\\Downloads\\Compressed\\Todo-20220804T221058Z-001\\To-do-Assignment\\Todo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\John_\\AppData\\Roaming\\NuGet\\NuGet.Config",
